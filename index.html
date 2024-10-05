@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Time tracking dashboard</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+   
+
+  </style>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <section>
+    <div class="container">
+      <div class="far-left">
+        <div class="jer">
+          <div class="jer-cont">
+            <div class="avatar">
+              <img src="./images/image-jeremy.png" alt="jeremy-avatar">
+            </div>
+            <div class="name-span">
+              <span class="ns">
+                Report for
+              </span>
+              <h2>
+                Jeremy Robson
+              </h2>
+            </div>
+          </div>
+       
+
+        </div>
+        <div class="duration">
+          <ul class="list">
+            <li id="0" class="list-item">Daily</li>
+            <li id="1" class="list-item">Weekly</li>
+            <li id="2" class="list-item">Monthly</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="right">
+        <div class="right-top">
+          <div class="work-block">
+            <div class="work-hrs">
+              <div class="work-ellip">
+                <span class="sel">Work</span>
+                <div class="ellipses">
+                  <svg class="red" width="21" height="5" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z" fill="" fill-rule="evenodd"/></svg>
+                </div>
+              </div>
+              <div class="hr-wk">
+                <h3></h3>
+                <p class="prev">Last Week -36hrs</p>
+              </div>
+             
+            </div>
+          </div>
+
+          <div class="work-block play">
+            <div class="work-hrs">
+              <div class="work-ellip">
+                <span class="sel">Play</span>
+                <div class="ellipses">
+                  <svg class="red" width="21" height="5" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z" fill="" fill-rule="evenodd"/></svg>
+                </div>
+              </div>
+              <div class="hr-wk">
+                <h3></h3>
+                <p class="prev">Last Week -8hrs</p>
+              </div>
+             
+            </div>
+          </div>
+
+          <div class="work-block study">
+            <div class="work-hrs">
+              <div class="work-ellip">
+                <span class="sel">study</span>
+                <div class="ellipses">
+                  <svg class="red" width="21" height="5" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z" fill="" fill-rule="evenodd"/></svg>
+                </div>
+              </div>
+              <div class="hr-wk">
+                <h3></h3>
+                <p class="prev">Last Week -7hrs</p>
+              </div>
+             
+            </div>
+          </div>
+        </div>
+
+        <div class="right-top">
+          <div class="work-block exercise">
+            <div class="work-hrs">
+              <div class="work-ellip ">
+                <span class="sel">Exercise</span>
+                <div class="ellipses">
+                  <svg class="red" width="21" height="5" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z" fill="" fill-rule="evenodd"/></svg>
+                </div>
+              </div>
+              <div class="hr-wk">
+                <h3> </h3>
+                <p class="prev">Last Week -5hrs</p>
+              </div>
+             
+            </div>
+          </div>
+
+          <div class="work-block play social">
+            <div class="work-hrs">
+              <div class="work-ellip">
+                <span class="sel">Social</span>
+                <div class="ellipses">
+                  <svg class="red" width="21" height="5" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z" fill="#BBC0FF" fill-rule="evenodd"/></svg>
+                </div>
+              </div>
+              <div class="hr-wk">
+                <h3></h3>
+                <p class="prev">Last Week -10hrs</p>
+              </div>
+             
+            </div>
+          </div>
+
+          <div class="work-block self">
+            <div class="work-hrs">
+              <div class="work-ellip">
+                <span class="sel">Self Care</span>
+                <div class="ellipses">
+                  <svg class="red" width="21" height="5" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z" fill="" fill-rule="evenodd"/></svg>
+                </div>
+              </div>
+              <div class="hr-wk">
+                <h3></h3>
+                <p class="prev">Last Week -2hrs</p>
+              </div>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+ 
+
+  
+  
+  
+ 
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+
+  <script type="module" src="./index.js"></script>
+</body>
+</html>
