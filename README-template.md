@@ -4,8 +4,7 @@
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-
+- Live Site URL: [https://maobugichi.github.io/activity-tracker/]
 ## My process
 
 ### Built with
