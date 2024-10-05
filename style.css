@@ -218,6 +218,7 @@ h3 {
 @media (max-width:380px) and (min-width: 200px) {
     section {
     height: 180vh;
+   
     }
     .container {
     width: 300px;
@@ -306,7 +307,7 @@ section {
  height: 160vh;
 }
 .container {
- width: 300px;
+ width: 330px;
  display: flex;
  flex-direction: column;
 }
