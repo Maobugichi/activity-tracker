@@ -1,14 +1,21 @@
+@import url("https://fonts.google.com/specimen/Rubik");
+
 * {
     margin: 0;
     padding: 0;
 }
-
+body {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
 section {
  background-color: hsl(226, 43%, 10%);
  height: 130vh;
  display: flex;
  align-items: center;
  overflow-x: hidden;
+ flex-direction: column;
 }
 
 .container {
@@ -54,13 +61,15 @@ section {
 .ns {
  font-size: 16px;
  color: hsl(236, 100%, 87%);
+ margin-left: 5px;
 }
 
 h2 {
- font-size: 60px;
- width: 90%;
- font-weight: 200;
+ font-size: 55px;
+
+ font-weight: 300;
  color: #ccc;
+ 
 }
 .avatar img {
  width: 100%;
@@ -294,7 +303,7 @@ h3 {
 }
 @media (max-width:1000px) and (min-width: 390px) {
 section {
- height: 140vh;
+ height: 160vh;
 }
 .container {
  width: 300px;
